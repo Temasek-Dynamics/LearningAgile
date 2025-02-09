@@ -1,0 +1,4 @@
+[submodule "SimulatorSetup"]
+	path = SimulatorSetup
+	url = https://github.com/Temasek-Dynamics/SimulatorSetup.git
+	branch = main

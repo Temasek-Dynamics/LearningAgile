@@ -64,7 +64,7 @@ class PegasusApp:
             "px4_autolaunch": True,
             "px4_dir": self.pg.px4_path,
             "px4_vehicle_model": "raynor",
-            "input_scaling": [5400, 5400, 5400, 5400]
+            "input_scaling": [5400, 5400, 5400, 5400] # For raynor
         })
         config_multirotor.backends = [PX4MavlinkBackend(mavlink_config)]
 

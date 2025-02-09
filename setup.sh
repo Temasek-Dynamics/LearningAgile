@@ -1,8 +1,6 @@
-# TODO
-# Automatically setup the environment for the project
+#!/bin/bash
+set -e
+FILE_DIR=$(dirname $0)
 
-# PX4 Installation
-# TODO
-
-# PegasusSimulator Installation
-# TODO
+# Setup the Simulator
+bash $FILE_DIR/SimulatorSetup/setup.sh --no-demo
